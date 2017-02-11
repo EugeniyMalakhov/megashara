@@ -108,7 +108,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-#STATIC_ROOT = "megashara/static/"
+STATIC_ROOT = "F:/server/www/megashara/static/"
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "megashop/../static"),
@@ -117,7 +117,4 @@ STATICFILES_DIRS = (
 
 MEDIA_URL = '/media/'
 
-MEDIAFILES_DIRS = (
-    os.path.join(BASE_DIR, "megashop/media"),
-    'F:/server/www/megashara/media/'
-)
+MEDIA_ROOT = 'F:/server/www/megashara/media/'
